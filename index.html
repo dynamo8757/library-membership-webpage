@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Membership Form</title>
+</head>
+<body>
+    <h2>Library membership Form</h2>
+    <form action="submit" method="post">
+
+        <label>Upload Your Photo</label>
+        <br>
+        <input type="file" name="photo" accept="image/*" required>
+        <br><br>
+
+        <label> Student Full Name</label>
+        <br>
+        <input type="text" name="full name" placeholder="Enter your full name" required>
+        <br><br>
+
+        <label>Roll no</label>
+        <br>
+        <input type="text" name="roll no" placeholder="Enter your class roll no." required>
+        <br><br>
+
+        <label>Registration No</label>
+        <br>
+        <input type="number" name="registration no" placeholder="Enter your registration no." required>
+        <br><br>
+
+        <label>Email</label>
+        <br>
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label>Gender</label>
+        <br>
+        <input type="radio" name="gender" required> Male
+        <input type="radio" name="gender" required> Female
+        <input type="radio" name="gender" required> Other
+        <br><br>
+
+        <label>Date of Birth</label>
+        <br>
+        <input type="date" name="dob" required>
+        <br><br>
+
+        <label>Branch</label>
+        <br>
+        <select name = "branch" required>
+            <option value="">Select your branch</option>
+            <option value="cse">Computer Science and Engineering</option>
+            <option value="civil">Civil Engineering</option>
+            <option value="mech">Mechanical Engineering</option>
+            <option value="eee"> Electrical and Electronics Engineering</option>
+            <option value="aiml">Artificial Intelligence and Machine Learning</option>
+            <option value="aero">Aeronautical Engineering</option>
+        </select>
+        <br><br>
+
+        <label>Address</label>
+        <br>
+        <textarea type="text" name="address" placeholder="Enter your address" required></textarea>
+        <br><br>
+
+        <label>Contact no.</label>
+        <br>
+        <input type="tel" name="contact" placeholder="Enter your contact no." required>
+        <br><br>
+
+        <label>validity</label>
+        <br>
+        <input type="radio" name="validity" required> 6 months
+        <input type="radio" name="validity" required> 1 year
+        <br><br>
+
+        <label>Submission date</label>
+        <br>
+        <input type="date" name="submission_date" required>
+        <br><br>
+
+        <label>Acknowledgment</label>
+        <br>
+        <input type="checkbox" name="acknowledgment" required> I acknowledge that the information provided is accurate and I agree to abide by the library rules and regulations.
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+    
+</body>
+</html>

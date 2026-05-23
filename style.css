@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #d4474c6e;
+    margin: 0;
+    padding: 20px;
+}
+
+h2{
+    color: #333;
+    text-align: center;}
+
+form{
+    background-color: #d512123d;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+}    
